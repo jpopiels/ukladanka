@@ -9,13 +9,15 @@
 #include <vector>
 
 namespace bl {
+    using Lines = std::vector<std::string>;
+
     class FileHandler {
     public:
         bool open(const std::string&, std::ios_base::openmode);
 
         void write(const std::string&);
 
-        std::vector<std::string> readLines();
+        Lines readLines();
 
         void close();
 

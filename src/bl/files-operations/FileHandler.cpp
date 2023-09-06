@@ -16,8 +16,8 @@ void FileHandler::write(const std::string &buffer) {
     file.write(buffer.c_str(), static_cast<std::streamsize>(buffer.size()));
 }
 
-std::vector<std::string> FileHandler::readLines() {
-    auto result = std::vector<std::string>();
+Lines FileHandler::readLines() {
+    auto result = Lines();
 
     while(!file.eof()) {
         auto str = std::string();
