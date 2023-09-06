@@ -21,6 +21,18 @@ target_sources(ukladanka
         src/bl/files-operations/Reader.h
         src/bl/files-operations/Writer.cpp
         src/bl/files-operations/Writer.h
+
+        src/includes/Defines.h
+        src/includes/enumerations/EmptyNeighbourPosition.h
+        src/includes/misc/StructureFileNameConnection.cpp
+        src/includes/misc/StructureFileNameConnection.h
+        src/includes/structures/Configuration.h
+        src/includes/structures/GameState.h
+        src/includes/structures/Move.h
+        src/includes/structures/Position.h
+        src/includes/structures/RankTable.h
+        src/includes/structures/SingleRankTableRecord.h
+
         src/logger/Logger.cpp
         src/logger/Logger.h
         src/logger/LogLine.cpp

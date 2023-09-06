@@ -5,13 +5,13 @@
 #ifndef UKLADANKA_RANKTABLE_H
 #define UKLADANKA_RANKTABLE_H
 
-#include <string>
+#include "SingleRankTableRecord.h"
+
+#include <vector>
 
 class RankTable {
 public:
-    std::string name;
-    std::string time;
-    std::string numOfMoves;
+    std::vector<SingleRankTableRecord> table;
 };
 
 #endif //UKLADANKA_RANKTABLE_H
