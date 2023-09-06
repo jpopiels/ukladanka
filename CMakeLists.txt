@@ -17,10 +17,14 @@ target_sources(ukladanka
         src/bl/files-operations/FileHandler.h
         src/bl/files-operations/OpenDoClose.cpp
         src/bl/files-operations/OpenDoClose.h
-        src/bl/files-operations/Reader.cpp
-        src/bl/files-operations/Reader.h
-        src/bl/files-operations/Writer.cpp
-        src/bl/files-operations/Writer.h
+        src/bl/files-operations/Splitter.cpp
+        src/bl/files-operations/Splitter.h
+        src/bl/files-operations/read/Reader.cpp
+        src/bl/files-operations/read/Reader.h
+        src/bl/files-operations/read/StructureReader.h
+        src/bl/files-operations/write/StructureWriter.h
+        src/bl/files-operations/write/Writer.cpp
+        src/bl/files-operations/write/Writer.h
 
         src/includes/Defines.h
         src/includes/enumerations/EmptyNeighbourPosition.h
