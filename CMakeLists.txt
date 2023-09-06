@@ -8,4 +8,11 @@ add_executable(ukladanka)
 target_sources(ukladanka
     PUBLIC
         src/main.cpp
+
+        src/bl/files-operations/FileHandler.cpp
+        src/bl/files-operations/FileHandler.h
+        src/logger/Logger.cpp
+        src/logger/Logger.h
+        src/logger/LogLine.cpp
+        src/logger/LogLine.h
 )
