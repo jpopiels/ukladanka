@@ -8,6 +8,10 @@ add_executable(ukladanka)
 target_sources(ukladanka
     PUBLIC
         src/main.cpp
+        src/AppMain.cpp
+        src/AppMain.h
+        src/Reactor.cpp
+        src/Reactor.h
 
         src/bl/files-operations/FileHandler.cpp
         src/bl/files-operations/FileHandler.h
