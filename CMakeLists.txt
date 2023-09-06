@@ -11,6 +11,12 @@ target_sources(ukladanka
 
         src/bl/files-operations/FileHandler.cpp
         src/bl/files-operations/FileHandler.h
+        src/bl/files-operations/OpenDoClose.cpp
+        src/bl/files-operations/OpenDoClose.h
+        src/bl/files-operations/Reader.cpp
+        src/bl/files-operations/Reader.h
+        src/bl/files-operations/Writer.cpp
+        src/bl/files-operations/Writer.h
         src/logger/Logger.cpp
         src/logger/Logger.h
         src/logger/LogLine.cpp
