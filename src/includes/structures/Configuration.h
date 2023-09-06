@@ -10,6 +10,9 @@
 class Configuration {
 public:
     std::size_t sideSize;
+
+    static constexpr const char* SIDE_SIZE_PARAM_NAME = "SideSize";
+    static const char KEY_VALUE_SPLITTER = '=';
 };
 
 #endif //UKLADANKA_CONFIGURATION_H
