@@ -5,7 +5,7 @@
 #ifndef UKLADANKA_READER_H
 #define UKLADANKA_READER_H
 
-#include "OpenDoClose.h"
+#include "../OpenDoClose.h"
 
 namespace bl {
     class Reader : public OpenDoClose {
