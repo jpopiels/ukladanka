@@ -5,7 +5,7 @@
 #ifndef UKLADANKA_WRITER_H
 #define UKLADANKA_WRITER_H
 
-#include "OpenDoClose.h"
+#include "../OpenDoClose.h"
 
 namespace bl {
     class Writer : public OpenDoClose {
