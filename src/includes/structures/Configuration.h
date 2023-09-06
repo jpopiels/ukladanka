@@ -9,8 +9,6 @@
 
 class Configuration {
 public:
-    std::size_t windowWidth;
-    std::size_t windowHeight;
     std::size_t sideSize;
 };
 
