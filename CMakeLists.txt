@@ -13,6 +13,9 @@ target_sources(ukladanka
         src/Reactor.cpp
         src/Reactor.h
 
+        src/bl/SquareBoard.h
+        src/bl/GameBoard.cpp
+        src/bl/GameBoard.h
         src/bl/files-operations/FileHandler.cpp
         src/bl/files-operations/FileHandler.h
         src/bl/files-operations/OpenDoClose.cpp
